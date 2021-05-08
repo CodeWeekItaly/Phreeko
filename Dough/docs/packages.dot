@@ -1,0 +1,14 @@
+digraph "packages" {
+charset="utf-8"
+rankdir=BT
+"0" [label="src", shape="box"];
+"1" [label="src.__main__", shape="box"];
+"2" [label="src.algorithm", shape="box"];
+"3" [label="src.algorithm.algorithm", shape="box"];
+"4" [label="src.algorithm.recomandations", shape="box"];
+"5" [label="src.app", shape="box"];
+"6" [label="src.util", shape="box"];
+"1" -> "5" [arrowhead="open", arrowtail="none"];
+"5" -> "6" [arrowhead="open", arrowtail="none"];
+"6" -> "3" [arrowhead="open", arrowtail="none"];
+}
